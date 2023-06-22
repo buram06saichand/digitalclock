@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(75deg,rgb(12, 117, 12),rgb(231, 161, 32));
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table,tr,th{
+    border: 5px solid black;
+    border-collapse: collapse;
+    width: 450px;
+    font-size: 24px;
+   
+}
+table{
+    height: 300px;
+}
+input{
+    width: 95%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 24px;
+    padding: 5px;
+}
